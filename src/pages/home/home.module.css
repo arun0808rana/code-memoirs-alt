@@ -1,0 +1,40 @@
+.brut {
+  border: 2px solid #000;
+  box-shadow: 5px 5px 0 #000;
+}
+
+
+.brutal-btn {
+  background-color: white;
+  border: 2px solid green;
+  padding: 20px 50px;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  color: green;
+}
+
+.brutal-btn:after {
+  content: "";
+  position: absolute;
+  background-color: green;
+  top: 8px;
+  left: 8px;
+  right: -8px;
+  bottom: -8px;
+  z-index: -1;
+}
+
+.brutal-btn:hover,
+brutalist-btn:active {
+  color: white;
+  background-color: green;
+  transition: all 0.3s ease;
+}
+
+.brutal-btn:hover:after,
+brutalist-btn:hover:active {
+  background-color: white;
+  border: 2px solid green;
+  transition: all 0.3s ease;
+}
