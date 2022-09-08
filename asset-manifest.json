@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/code-memoirs-alt/static/css/main.061212e9.css",
+    "main.js": "/code-memoirs-alt/static/js/main.48fa399f.js",
+    "static/js/787.59c02dfb.chunk.js": "/code-memoirs-alt/static/js/787.59c02dfb.chunk.js",
+    "static/media/logo.svg": "/code-memoirs-alt/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/code-memoirs-alt/index.html",
+    "main.061212e9.css.map": "/code-memoirs-alt/static/css/main.061212e9.css.map",
+    "main.48fa399f.js.map": "/code-memoirs-alt/static/js/main.48fa399f.js.map",
+    "787.59c02dfb.chunk.js.map": "/code-memoirs-alt/static/js/787.59c02dfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.061212e9.css",
+    "static/js/main.48fa399f.js"
+  ]
+}
