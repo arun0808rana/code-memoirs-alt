@@ -13,14 +13,18 @@ const userSchema = new mongoose.Schema({
 }, { timestamps: true }
 );
 
-userSchema.methods.generateAccessToken = ()=>{
+userSchema.methods.generateAccessToken = () => {
     const payload = {
         user: {
             id: this._id,
         },
     };
+    // current user
+    const user = this;
+
     const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: "30s" });
-    return token;
+    const refreshToken = jwt.sign(user, process.env.REF_TOK_KEY);
+    return [token, refreshToken];
 }
 
 const User = mongoose.model('User', userSchema);
